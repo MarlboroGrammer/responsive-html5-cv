@@ -1,0 +1,28 @@
+{
+  "name": "slehmastouri.com",
+  "version": "1.0.0",
+  "description": "MY HTML CV",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sleh",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-html": "^0.4.7",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.2.1",
+    "respond": "^0.9.0"
+  }
+}

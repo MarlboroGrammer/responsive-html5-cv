@@ -1,0 +1,349 @@
+@font-face {
+	font-family: "CamptonBold";
+	src: url("../fonts/campton-bolddemo-webfont.woff2") format("woff2"),
+	     url("../fonts/campton-bolddemo-webfont.woff") format("woff");
+}
+@font-face {
+	font-family: "CamptonLight";
+	src: url("../fonts/campton-lightdemo-webfont.woff2") format("woff2"),
+	     url("../fonts/campton-lightdemo-webfont.woff") format("woff");
+}
+body{
+	overflow-x: hidden;
+}
+h3{
+	padding: 0;
+}
+.title-minus90{
+	font-family: CamptonBold;
+	color: white;
+	position: relative;
+	right: 43px;
+	font-size: 124px;
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	padding: 0;
+	margin: 0;
+}
+.title-plus90{
+	font-family: CamptonBold;
+	color: white;
+	position: relative;
+	right: 43px;
+	font-size: 124px;
+	transform: rotate(90deg);
+	transform-origin: right top 0;
+	padding: 0;
+	margin: 0;
+}
+
+.top-section,
+.contact-info-section,
+.about-me-section,
+.education,
+.skills,
+.portfolio{
+	padding: 0;
+}
+
+.top-section{
+	margin: 0; 
+	padding: 0;
+	font-size: 18px;
+	font-family: CamptonBold;
+	.top-section-links{
+		display: flex;
+		z-index: 2;
+		.header-image{
+		    position: relative;
+		    left: 177px;
+		    bottom: 6px;
+		}
+		a{
+			color: #ffffff;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		
+		ul{
+			list-style: none;
+			padding: 0;
+		}
+		.top-section-link, 
+		.top-section-last-link{
+			width: 420px;
+			height: 52px;
+			padding: 15px 0 0 25px;
+			-webkit-transition: width 0.5s; /* Safari */
+    		transition: width 0.5s;
+		}
+		.top-section-link:hover{
+			width: 520px;
+		}
+		.top-section-last-link{
+			height: 252px;
+		}
+		.about-me-link{
+			background-color: #00ccff;
+		}
+		.education{
+			background-color: #0099ff;
+		}
+		.skills{
+			background-color: #0066ff;
+		}
+		.portfolio{
+			background-color: #0033ff;
+		}
+		.experience{
+			background-color: #0000ff;
+		}
+		.useful-links{
+			background-color: #3300ff;
+			.useful-links-left,
+			.useful-links-right{
+				img{
+					padding:30px 0 30px 0;
+				}
+			}
+		}
+		.my-image{
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+		}
+		.useful-links{
+			margin-right: 0;
+		}
+	}
+}
+.contact-info-section{
+	padding: 80px 0 80px 0;
+	.hello{
+		font-family: CamptonBold;
+		font-size: 120px;
+	}
+	p{
+		padding-top: 150px;
+	}
+	.about-me-name{
+		padding-top: 40px;
+		font-family: CamptonLight;
+		font-size: 60px;
+	}
+	.about-me-job-title{
+		font-family: CamptonLight;
+		font-size: 38px;
+	}
+	.contact-info{
+		font-family: CamptonBold;
+		font-size: 18px;
+		color: #000000;
+		margin-top: 80px;
+	}
+	.contact-info .table-element{
+		padding-bottom: 60px;
+	}
+}
+.about-me-section{
+	background-color: #00ccff;
+	padding-bottom: 140px;
+	.title-minus90{top: 656px;}
+	.about-me-section-text{
+		font-family: CamptonLight;
+		font-size: 38px;
+		color: white;
+		padding: 0 0 180px 160px;
+		margin: 0;
+	}
+}
+.education{
+	padding: 30px 0 160px 0;
+	.certifications{
+		margin-left: 200px;
+	}
+	.light-text{
+		font-family: CamptonLight !important;
+		font-size: 14px;
+	}
+	background-color: #0098fe;
+	.title-minus90{top: 700px;}
+	.degrees, 
+	.certifications{
+
+		.high-school, 
+		.university{
+			padding-left: 10px;
+			padding-top: 20px; 
+			h3{
+				font-family: CamptonBold;
+				color: #000000 !important;
+				margin: 0;	
+			}
+			table{
+				td{
+					padding:0 0 42px 0;
+				}
+			}
+		}
+		h3{
+			font-family: CamptonBold;
+			color: white;
+		}
+		p{
+			font-size: 20px;
+		}
+		.degree{
+			background-color: white;
+			width: 650px;
+			height: auto;
+			margin-bottom: 60px;
+			-webkit-box-shadow: 10px 10px 111px -20px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 111px -20px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 111px -20px rgba(0,0,0,0.75);
+		}
+	}
+}
+.skills{
+	background-color: #0066ff;
+	padding:80px 0 100px 75px;
+	.title-plus90{top: 7px; left: 45px;}
+	.skill-title{
+		display: flex;
+		.title{
+			font-size: 36px;
+			color: white;
+			font-family: CamptonLight;
+			margin: 30px 0 0 20px; 
+		}
+		.white-hr{
+			border-top: 3px solid #eeeeee;
+		}
+	}
+	.skill-bar{
+		display: inline-block;
+		border-right: 1px solid #eeeeee;
+		border-bottom: 2px solid #eeeeee;
+		margin-left: 35px;
+		hr{
+			margin-left: 0;
+			margin-bottom: 0;
+		}
+	}
+	.skill-bar-100{
+		hr{
+			width: 200px;
+		}
+	}
+	.skill-bar-75{
+		hr{
+			width: 150px;
+		}
+	}
+	.skill-bar-50{
+		hr{
+			width: 100px;
+		}
+	}
+	.skill-bar-25{
+		hr{
+			width: 50px;
+		}
+	}
+	.skill-table{
+		td{
+			padding-bottom: 25px;
+			text-align: left;
+			font-family: CamptonLight;
+			color: white;
+			font-size: 20px;
+		}
+		.skill-details{
+			font-size: 13px;
+			text-align: justify;
+		}
+	}
+}
+.portfolio{
+	padding:0 0 100px 0px;
+	background-color: #0033ff;
+	.portfolio-gallery{
+		.title-plus90{
+		    left: -1px;
+		    top: 47px;
+		    font-size: 136px;
+		    line-height: 0.7;
+		}
+		padding: 40px 0 0 40px;
+		.tight-col{
+			margin-left: 0;
+			padding-left: 0;
+			.small-project-thumbs{
+				display: flex;
+			}
+		}
+		.work-panel{
+			color: white;
+			font-family: CamptonLight;
+			font-size: 1em;
+		}
+		.work-panel-aj{
+			padding-left: 0;
+			.title-rotate-right{
+				position: absolute;
+				transform: rotate(90deg);
+				transform-origin: right top 0;
+				right: 354px;
+			    top: 677px;
+			    font-size: 36px;
+			}
+		}
+		.work-panel-cc{
+		}
+	}
+}
+.experiences{
+	background-color: #0000ff;
+	padding: 40px 0 0 40px;
+	z-index: 1;
+	.bg-image-trick{
+		position: relative;
+		right: 150px;
+		z-index: 0;
+	}
+	.experience-title-plus90{
+		transform: rotate(90deg);
+		transform-origin: right top 0;
+		font-family: CamptonBold;
+		color: white;
+		position: relative;
+		top: 49px;
+		left: 46px;
+		font-size: 120px;
+		letter-spacing: 0px;
+		transform: rotate(90deg);
+	}
+	.experience{
+		color: white;
+		width: 44.44%;
+		margin-bottom: 30px;
+		.experience-title{
+			font-family: CamptonBold;
+			font-size: 1.25em;
+		}
+		.experience-work-years,
+		.experience-description{
+			padding: 20px 0 20px 0;
+			font-family: CamptonLight;
+		}
+	}
+}
+
+footer{
+	font-style: CamptonLight;
+	color: white;
+	background-color: #3300ff;
+	text-align: center;
+}

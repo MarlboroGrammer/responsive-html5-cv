@@ -1,0 +1,128 @@
+@media(max-width: 767px){
+	.top-section, .about-me-section, .education, .skills, .portfolio, .experiences{
+		overflow-x: hidden;
+	}
+	.top-section-links{
+		.top-section-link, 
+		.top-section-last-link{
+			-webkit-transition: height 0.5s; /* Safari */
+    		transition: height 0.5s;
+		}
+		.top-section-link:hover{
+			height: 82px;
+		}
+	}
+	.about-me-section{
+		padding-bottom: 30px;
+		.title-minus90{
+			top: 369px;
+			right: 24px;
+			font-size: 70px;
+		}
+		.about-me-section-text{
+			padding: 0 0 180px 70px;
+		}
+	}
+	.education{
+		.certifications{
+			margin-left: 0;
+		}
+		.title-minus90{
+			top: -54px;
+			transform: rotate(0deg);
+			font-size: 64px;
+			padding-left: 40px;
+		}
+		.degrees .degree, .certifications .degree{
+			width: auto;
+		}
+	}
+	.skills{
+		padding: 40px 0 100px 75px;
+		.title-plus90{
+			top: -1634px; 
+			left: -109px;
+			transform: rotate(-90deg);
+			transform-origin: left top 0;
+			font-size: 94px;
+		}
+		.soft-skills, .technical, .design{
+			position: relative;
+			right: 50px;
+		}
+		.skill-bar{
+			margin-left: 5px;
+		}	
+		.skill-bar-100{
+			hr{
+				width: 200px;
+			}
+		}
+		.skill-bar-75{
+			hr{
+				width: 150px;
+			}
+		}
+		.skill-bar-50{
+			hr{
+				width: 100px;
+			}
+		}
+		.skill-bar-25{
+			hr{
+				width: 50px;
+			}
+		}	
+	}
+	.portfolio{
+		.portfolio-gallery{
+			.title-plus90{
+			    left: -43px;
+			    top: -1139px;
+			    font-size: 93px;
+			    line-height: 0.7;
+			    transform: rotate(0deg);
+			}
+			padding: 160px 0 0 40px;
+			.work-panel-mde, .work-panel-cc, .work-panel-aj{
+				img{
+					width: 300px !important;
+				}
+			}
+			.work-panel-aj{
+				padding-top: 140px;
+				.title-rotate-right{
+					transform: rotate(0deg);
+					right: 172px;
+				    top: 26px;
+				    font-size: 36px;
+				}
+			}
+			.small-project-thumbs{
+				img{
+					width: 150px !important;
+				}
+			}
+		}
+	}
+	.experiences{
+		.experience{
+			padding-top: 61px;
+		}
+		.bg-image-trick{
+		    top: 96px;
+		    right: 50px;
+		    width: 384px;
+		}
+		.experience-title-plus90{
+		    top: -1551px;
+		    left: -43px;
+		    font-size: 60.5px;
+		    transform: rotate(0deg);
+		}
+		.experience{
+			width: 90%;
+		}
+	}
+
+}
