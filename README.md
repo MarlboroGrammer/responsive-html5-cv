@@ -8,6 +8,6 @@ My cv in html5, using gulp and LESS
 
 
 # requirements
-Node.js , download from here https://nodejs.org/en/download/
+Node.js , download from here https://nodejs.org/en/download/<br>
 Gulp, install from node package manager using : `npm install --global gulp`
 
